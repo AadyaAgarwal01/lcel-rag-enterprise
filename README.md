@@ -7,9 +7,7 @@
 
 An enterprise-grade, modular Retrieval-Augmented Generation (RAG) scaffolding engine built with LangChain Expression Language (LCEL) and Google Gemini. This repository serves as a deterministic production blueprint for closed-domain document processing, featuring strict type-safe structured outputs and high-availability retrieval fault isolation.
 
-## 🚀 Why the Project is Useful & Motivation
-
-### The Motivation
+## 🚀 User Perspective
 Most RAG tutorials and boilerplate applications rely on fragile, high-level sequential chains. While these work well for simple demonstrations, they rapidly degrade in production environments. We frequently observe architectures cracking under stress due to:
 1. **Schema Drift:** LLMs failing to adhere to raw-text JSON prompt requests, breaking downstream microservices.
 2. **Cascading Failures:** A single timeout or minor glitch in the vector database layer causing an unhandled exception that crashes the entire application thread.

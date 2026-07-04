@@ -1,0 +1,16 @@
+# Local secrets — never commit
+.env
+
+# Vector store persistence & uploads
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
